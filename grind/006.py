@@ -21,7 +21,7 @@ class Solution:
         que = Queue()
         que.put(root)
 
-        while que.empty():
+        while not que.empty():
             item: TreeNode = que.get()
             
             
